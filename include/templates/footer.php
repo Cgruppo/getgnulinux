@@ -45,6 +45,7 @@
     <div class="notices" dir="ltr">
       <p>
         Except where otherwise <a href="<?php $this->base_url('legal'); ?>">noted</a>, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license"><abbr title="Creative Commons Attribution-ShareAlike">CC BY-SA</abbr> 3.0 License</a>.<br/>
+        We bare no affiliation with GNU or Linux. Linux&reg; is the registered <a href="http://www.linuxfoundation.org/programs/legal/trademark">trademark</a> of Linus Torvalds.<br/>
         Optimized for <a href="http://validator.w3.org/check?uri=referer">standards</a>. Hosted by <a href="http://tuxfamily.org/">TuxFamily</a>.
       </p>
 
