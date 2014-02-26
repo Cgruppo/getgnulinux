@@ -49,7 +49,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <div id="applist">
     <p><?php print _("Non-proprietary software stands out in many areas: consider, to name just a few:"); ?></p>
     <ul>
-    <li><?php print _("Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."); ?></li>
+    <li><?php print _("Applications: <a href=\"http://www.mozilla.org/firefox/\">Firefox</a> (web browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."); ?></li>
     <li><?php print _("Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> (<abbr title=\"Operating System\">OS</abbr>), and of course, GNU/Linux."); ?></li>
     <li><?php
     # translators: use URL to localized Wikipedia article for ODF, instead of opendocumentfellowship
@@ -133,7 +133,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
           <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
           <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
           <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
-          <p><?php $p = _("Need examples? Have a look at the <a href=\"http://www.getfirefox.com/\">Firefox browser</a>, the <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache HTTP Server</a>, the <a href=\"http://en.wikipedia.org/wiki/Pretty_Good_Privacy\">OpenPGP</a> encryption system, or the <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->base_url('switch_to_linux/from_windows_to_linux',1)); ?></p>
+          <p><?php $p = _("Need examples? Have a look at the <a href=\"http://www.mozilla.org/firefox/\">Firefox browser</a>, the <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache HTTP Server</a>, the <a href=\"http://en.wikipedia.org/wiki/Pretty_Good_Privacy\">OpenPGP</a> encryption system, or the <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->base_url('switch_to_linux/from_windows_to_linux',1)); ?></p>
         </div>
       </div>
 
@@ -183,7 +183,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     </div>
 
     <div class="button green">
-      <a href="<?php $this->base_url('linux'); ?>"><?php print _("What is Linux?"); ?> <i class="fa fa-level-up fa-fw"></i></a>
+      <a href="<?php $this->base_url('linux'); ?>"><?php print _("What is GNU/Linux?"); ?> <i class="fa fa-level-up fa-fw"></i></a>
     </div>
 
     </div>

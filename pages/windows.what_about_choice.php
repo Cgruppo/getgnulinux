@@ -54,7 +54,7 @@ $this->load_header();
     <p><?php print _("Microsoft has a tight control over <abbr title=\"Original Equipment Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers with Windows installed."); ?><br/>
     <?php
     # translators: if you cannot find localized homepages, please leave the URLs as such
-    print _("This means that no program competing with Microsoft products, be it <a href=\"http://www.videolan.org/vlc/\">multimedia player</a>, <a href=\"http://www.getfirefox.com/\">web browser</a>, <a href=\"http://libreoffice.org/\">office suite</a>, <a href=\"http://www.pidgin.im/\">instant messaging program</a> or other, will come pre-installed on most computers you can buy."); ?></p>
+    print _("This means that no program competing with Microsoft products, be it <a href=\"http://www.videolan.org/vlc/\">multimedia player</a>, <a href=\"http://www.mozilla.org/firefox/\">web browser</a>, <a href=\"http://libreoffice.org/\">office suite</a>, <a href=\"http://www.pidgin.im/\">instant messaging program</a> or other, will come pre-installed on most computers you can buy."); ?></p>
 
     <p><?php print _("It is a good thing to propose a wide range of software and services like Microsoft do; however, designing and combining them to shut users from non-Microsoft peers is unethical. It's not technically hard to adopt more open formats. But it means your customers are <em>free to choose what they do with their work</em> &ndash; Microsoft isn't there yet."); ?></p>
 

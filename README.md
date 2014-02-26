@@ -1,6 +1,6 @@
 # Get GNU/Linux!
 
-This is the web application for the [getgnulinux.org](http://getgnulinux.org) site. Get GNU/Linux! is a simple, clear website about GNU/Linux. What is Linux? Why not Windows? Tips to make the switch. With this website we hope to reach people who never heard about free software and barely remotely heard the word "Linux".
+This is the web application for the [getgnulinux.org](http://getgnulinux.org) site. Get GNU/Linux! is a simple, clear website about GNU/Linux. What is GNU/Linux? Why not Windows? Tips to make the switch. With this website we hope to reach people who never heard about free software and barely remotely heard the word "Linux".
 
 The website is written in PHP and JavaScript, and uses GNU gettext for internationalization.
 
