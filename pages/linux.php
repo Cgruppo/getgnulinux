@@ -38,7 +38,16 @@ $this->load_header();
       <h2><?php print _("The larger picture"); ?></h2>
 
       <p><?php # translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
-      print _("When you get a distribution of GNU/Linux, <strong>you also get the freedom to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's what makes it truly <a href=\"http://www.softwareliberty.com/\" title=\"what is freedom in software?\">free software</a>."); ?></p>
+      print _("When you get a distribution of GNU/Linux, you have these four essential freedoms:"); ?>
+
+      <ol start="0">
+        <li><?php print _("You have the freedom to run the program, for any purpose."); ?></li>
+        <li><?php print _("You have access to the source code, the freedom to study how the program works, and the freedom to change it to make it do what you wish."); ?></li>
+        <li><?php print _("You have the freedom to redistribute copies of the original program so you can help your neighbor."); ?></li>
+        <li><?php print _("You have the freedom to distribute copies of your modified versions to others. By doing this you can give the whole community a chance to benefit from your changes."); ?></li>
+      </ol>
+
+      <?php print _("That's what makes it truly <a href=\"http://www.softwareliberty.com/\" title=\"what is freedom in software?\">free software</a>."); ?></p>
 
       <p><?php print _("Many companies develop their own operating system based on the core <a href=\"http://www.gnu.org\" title=\"the GNU project: at the source of all GNU/Linux distributions\">GNU software</a>: products they do not have exclusive rights on. How does the wheel turn?"); ?></p>
 
